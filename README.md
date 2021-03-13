@@ -28,7 +28,7 @@ Process Payment API using .NET Core Web API and Clean Architecture
 <ul>
   <li>.NET Core Web API</li>
   <li>Polly</li>
-  <li>MediatR ( for Command Query Request Segregation (CQRS))</li>
+  <li>MediatR ( for Command Query Responsibility Segregation (CQRS))</li>
   <li>AutoMapper</li>
   <li>Fluent Validation API</li>
   <li>Swagger UI</li>
