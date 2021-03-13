@@ -34,6 +34,18 @@ Process Payment API using .NET Core Web API and Clean Architecture
   <li>Swagger UI</li>
 </ul>
 
+## Return Types
+- A Cheap Payment returns a Payment Reference code that starts with **"CHEAP"**
+
+- An Expensive Payment returns a Payment Reference code that starts with **"EXP"**
+**<p><i> Expensive Payments can also return Payment References that start with "CHEAP" when the fallback policy is initiated as illustrated below</i></p>**
+<p><i>Random Exception thrown</i></p>
+<img src="https://res.cloudinary.com/r3dmau5/image/upload/v1615651818/exception.png"/>
+
+<p><i>Request/Response</i></p>
+<img src="https://res.cloudinary.com/r3dmau5/image/upload/v1615651819/Response.png"/>
+
+- A Premium Payment returns a Payment Reference code that starts with **"PREM"**
 ## Setup
 <ul>
 <li>Uses Sql Server ( Install using [this link](https://go.microsoft.com/fwlink/?linkid=866662) ).</li>
